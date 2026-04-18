@@ -34,7 +34,7 @@ Saved in file:
 hashes1.txt
 
 ### Step 3: Crack Hash
-john --format=Raw-MD5 hashes.txt --wordlist=/usr/share/wordlists/rockyou.txt
+john --format=Raw-MD5 hashes1.txt --wordlist=/usr/share/wordlists/rockyou.txt
 
 ### Step 4: Show Cracked Password
 john --show hashes1.txt

@@ -1,4 +1,8 @@
 # DVWA Password Hash Cracking using John the Ripper
+## 🔍 Attack Chain
+
+SQL Injection → Database Dump → Hash Extraction → Password Cracking
+
 
 ## 📌 Project Overview
 This project demonstrates extracting password hashes via SQL Injection and cracking them using John the Ripper.
@@ -63,7 +67,14 @@ charley
 ---
 
 ## 📷 Screenshots
-See ``
+sqlmap-hash(hash extraction)
+<img width="706" height="282" alt="sqlmap dump login" src="https://github.com/user-attachments/assets/4b61b5b6-ead5-4dbc-a172-802c985a5175" />
+
+john-crack(cracked password output) 
+<img width="624" height="411" alt="John2" src="https://github.com/user-attachments/assets/ba14654d-c954-4dbd-a07f-8d1271518405" />
+
+
+
 
 ---
 

